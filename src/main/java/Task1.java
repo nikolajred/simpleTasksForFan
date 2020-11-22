@@ -23,7 +23,8 @@ public class Task1 {
 
         }
         resultNumber = (inputNumber/10) + " " +(inputNumber%10);
-        System.out.println("Два одноцифровых числа, разделенных пробелом "+ resultNumber);
+        System.out.print("Два односимвольных числа, разделенных пробелом : ");
+        System.out.print(resultNumber);
 
     }
 }
