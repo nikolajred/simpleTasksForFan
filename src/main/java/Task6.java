@@ -9,7 +9,8 @@ public class Task6 {
      */
     public static BigInteger factorial(int value) {
         BigInteger ret = BigInteger.ONE;
-        for (int i = 1; i <= value; ++i) ret = ret.multiply(BigInteger.valueOf(i));
+        for (int i = 1; i <= value; ++i)
+            ret = ret.multiply(BigInteger.valueOf(i));
         return ret; // your implementation here
     }
 
